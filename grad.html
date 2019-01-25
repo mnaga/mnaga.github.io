@@ -1,13 +1,12 @@
 <html>
 <head>
 <sytle>
-background: linear-gradient(269deg, #6d2b7f, #ee2f1a);
-background-size: 400% 400%;
-
+background: linear-gradient(270deg, #430fe4, #234ae8, #15a32d, #f55519, #d71abf);
+background-size: 1000% 1000%;
 -webkit-animation: AnimationName 6s ease infinite;
 -moz-animation: AnimationName 6s ease infinite;
+-o-animation: AnimationName 6s ease infinite;
 animation: AnimationName 6s ease infinite;
-
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -18,7 +17,12 @@ animation: AnimationName 6s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
